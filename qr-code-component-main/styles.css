@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.qr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(184, 204, 211);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30rem;
+    border-radius: 1rem;
+}
+.code{
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-self: center;
+    margin-left: 6.5rem;
+    text-align: center;
+}
+p{
+    color: gray;
+    align-self: center;
+    text-align: center;
+    width: 60%;
+    margin-left: 5rem;
+}
